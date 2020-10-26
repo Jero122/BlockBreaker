@@ -48,6 +48,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 7b79d80f9c5e28d41b17211e6d0d8188, type: 3}
   m_Color: {r: 1, g: 0.1968858, b: 0, a: 1}
   m_FlipX: 0
@@ -123,8 +124,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myAudioClip: {fileID: 8300000, guid: c99e5c140badcf540a26576005d2c9f4, type: 3}
   blockSparklesVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
-  maxHits: 3
   hitSprites:
   - {fileID: 21300000, guid: a153bccc299a56844a01ee7607d038f9, type: 3}
   - {fileID: 21300000, guid: f0a38a2ce4da91447b1c16f6b31f1050, type: 3}
   timesHit: 0
+  isSpecial: 0
